@@ -303,7 +303,15 @@ ul {
 
 .skill-secondary {
 	margin-bottom: 0;
+	list-style: disc;
+	list-style-position: inside;
+	color: #dbe1e8;
 }
+
+	.skill__name-secondary {
+		color: #717f95;
+		font-size: 14px;
+	}
 
 .progress {
 	margin: 0;
