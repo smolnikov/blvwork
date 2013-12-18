@@ -1,6 +1,13 @@
 module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
+		uglify: {
+			build: {
+				files: {
+					'static/js/blvwork.min.js': ['static/js/snap.svg.js', 'static/js/script.js'],
+				}
+			}
+		},
 		csso: {
 			compress: {
 				options: {
@@ -13,7 +20,7 @@ module.exports = function(grunt) {
 		},
 		imgo: {
 			images: {
-				src: 'static/img/*.*'
+				src: 'stxatic/img/*.*'
 			}
 		},
 		svgmin: {
@@ -44,8 +51,8 @@ module.exports = function(grunt) {
 			}
 		},
 		watch: {
-			files: ['static/css/bootstrap.css', 'static/css/style.css'],
-			tasks: ['csso']
+			files: ['static/css/bootstrap.css', 'static/css/style.css', 'static/js/script.js'],
+			tasks: ['csso', 'uglify']
 		},
 		connect: {
 			server: {

@@ -3,21 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
+	<meta property="og:url" content="http://www.beliv.net/work/">
+	<meta property="og:title" content="Ivan Beloborodov — UX Designer">
+	<meta property="og:description" content="Привет! Меня зовут Иван Белобородов. Я&nbsp;родился и&nbsp;вырос в&nbsp;Ижевске, столице Удмуртской Республики. Последние несколько лет занимаюсь проектированием и&nbsp;дизайном мобильных приложений на&nbsp;базе iOS и&nbsp;Android. В&nbsp;данный момент живу в&nbsp;Москве и&nbsp;ищу постоянное место работы.">
+	<meta property="og:image" content="http://www.beliv.net/work/static/img/beliv2x.jpg">
 	<title>Ivan Beloborodov — UX Designer</title>
 	<!--[if lt IE 9]><script src="static/js/html5shiv.js"></script><![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Sans+Narrow&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="static/css/blvwork.css">
+	<link rel="shortcut icon" href="/favicon.ico">
 </head>
 <body>
 	<div class="container page">
 		<div class="row">
 			<section class="section section-photo centered col-md-2">
-				<img src="static/img/beliv2x.jpg" alt="" class="img-circle img-bordered photo__image">
+				<div class="photo__wrapper img-circle">
+					<img src="static/img/beliv2x.jpg" alt="" class="photo__image img-circle">	
+				</div>
 			</section>
-			<section class="section section-about col-md-5">
+			<section class="section section-about col-md-5 col-sm-6">
 				<h2 class="subtitle">Обо мне</h2>
 				<p>Привет! Меня зовут Иван Белобородов. Я&nbsp;родился и&nbsp;вырос в&nbsp;Ижевске, столице Удмуртской Республики. Последние несколько лет занимаюсь проектированием и&nbsp;дизайном мобильных приложений на&nbsp;базе iOS и&nbsp;Android. В&nbsp;данный момент живу в&nbsp;Москве и&nbsp;ищу постоянное место работы.</p>
-				<p>Испытываю страсть к&nbsp;девайсам, имеющим touch-интерфейс, классическим мотоциклам, немецкому пиву, анлийской музыке и&nbsp;французскому кино.</p>
+				<p>Испытываю страсть к&nbsp;девайсам, имеющим touch-интерфейс, классическим мотоциклам, немецкому пиву, английской музыке и&nbsp;французскому кино.</p>
 				<ul class="about__links">
 					<li class="about__links__item">
 						<a href="http://beliv.net" class="about__link about__link-site js-out">beliv.net</a>
@@ -29,19 +36,24 @@
 						<a href="http://twitter.com/beliv" class="about__link about__link-twitter js-out">@beliv</a>
 					</li>
 					<li class="about__links__item">
-						<a href="http://dribble.com/beliv" class="about__link about__link-dribble js-out">dribble.com/beliv</a>
+						<a href="http://dribbble.com/beliv" class="about__link about__link-dribble js-out">dribbble.com/beliv</a>
 					</li>
 					<li class="about__links__item">
 						<a href="http://beliv.net" class="about__link about__link-revision js-out">revision.ru/a/beliv</a>
 					</li>
 				</ul>
 			</section>
-			<section class="section section-experience col-md-5">
+			<section class="section section-experience col-md-5 col-sm-6">
 				<h2 class="subtitle">Опыт работы</h2>
 				<ul class="experience__list">
+					<li class="experience__list__item experience__list__item-now experience__list__item-single">
+						<div class="experience__company">МегаЛабс</div>
+						<div class="experience__position">UX-дизайнер</div>
+						<div class="experience__period">Декабрь 2013 — ...</div>
+					</li>
 					<li class="experience__list__item experience__list__item-first">
 						<div class="experience__company">Центр Высоких Технологий</div>
-						<div class="experience__position">UX Дизайнер</div>
+						<div class="experience__position">UX-Дизайнер</div>
 						<div class="experience__period">Январь 2011&nbsp;&mdash; Июнь 2013</div>
 					</li>
 					<li class="experience__list__item">
@@ -73,14 +85,17 @@
 				<li class="skill skill-primary centered col-md-4">
 					<div class="skill__name skill__name-primary">User Experience</div>
 					<div class="skill__since skill__since-primary">с 2010 года</div>
+					<div class="skill__progress skill__progress-primary js-skill__progress" data-progress="55"></div>
 				</li>
 				<li class="skill skill-primary centered col-md-4">
 					<div class="skill__name skill__name-primary">Дизайн мобильных интерфейсов</div>
 					<div class="skill__since skill__since-primary">с 2010 года</div>
+					<div class="skill__progress skill__progress-primary js-skill__progress" data-progress="80"></div>
 				</li>
 				<li class="skill skill-primary centered col-md-4">
 					<div class="skill__name skill__name-primary">Веб-интерфейсы</div>
 					<div class="skill__since skill__since-primary">с 2010 года</div>
+					<div class="skill__progress skill__progress-primary js-skill__progress" data-progress="60"></div>
 				</li>
 			</ul>
 			<ul class="skills skills-secondary row col-md-12">
@@ -103,19 +118,19 @@
 			<div class="col-md-12 row">
 				<ul class="progress col-md-8 col-sm-8">
 					<div class="progress__bar">
-						<div class="progress__bar__ready" style="width: 90%">Photoshop</div>
+						<div class="progress__bar__ready js-progress__bar__ready" data-progress="90">Photoshop</div>
 					</div>
 					<div class="progress__bar">
-						<div class="progress__bar__ready progress__bar__ready-green" style="width: 70%">Illustrator</div>
+						<div class="progress__bar__ready progress__bar__ready-green js-progress__bar__ready" data-progress="70">Illustrator</div>
 					</div>
 					<div class="progress__bar">
-						<div class="progress__bar__ready progress__bar__ready-purple" style="width: 50%">Indesign</div>
+						<div class="progress__bar__ready progress__bar__ready-purple js-progress__bar__ready" data-progress="50">Indesign</div>
 					</div>
 					<div class="progress__bar">
-						<div class="progress__bar__ready progress__bar__ready-teal" style="width: 20%">Sketch</div>
+						<div class="progress__bar__ready progress__bar__ready-teal js-progress__bar__ready" data-progress="20">Sketch</div>
 					</div>
 					<div class="progress__bar">
-						<div class="progress__bar__ready progress__bar__ready-orange" style="width: 60%">Axure</div>
+						<div class="progress__bar__ready progress__bar__ready-orange js-progress__bar__ready" data-progress="60">Axure</div>
 					</div>
 				</ul>
 				<div class="col-md-4 col-sm-4">
@@ -200,5 +215,6 @@
 			<img src="static/img/bill2x.jpg" alt="" class="img-circle footer__image">
 		</footer>
 	</div>
+	<script src="static/js/blvwork.min.js"></script>
 </body>
 </html>
