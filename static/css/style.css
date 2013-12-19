@@ -37,6 +37,11 @@ ul {
 	margin: 0;
 }
 
+
+.strike {
+	text-decoration: line-through;
+}
+
 .page {
 	padding-top: 55px;
 }
@@ -470,8 +475,6 @@ ul {
 .interest__image {
 	width: 100%;
 }
-
-
 
 .footer {
 	padding-bottom: 30px;
