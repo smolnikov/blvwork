@@ -37,6 +37,10 @@ ul {
 	margin: 0;
 }
 
+dt,
+dd {
+	margin: 0;
+}
 
 .strike {
 	text-decoration: line-through;
