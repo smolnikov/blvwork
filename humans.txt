@@ -1,0 +1,10 @@
+/* TEAM */
+	Design: Ivan Beloborodov
+	Site: http://beliv.net
+	Twitter: @beliv
+	Location: Moscow, Russia
+
+	HTML, JS: Sergey Smolnikov
+	Site: http://letsdoitwith.us
+	Twitter: @smolnikov
+	Location: Izhevsk, Russia
