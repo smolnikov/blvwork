@@ -5,6 +5,8 @@ if ( 'querySelector' in document && 'addEventListener' in window && Array.protot
 
 	[].forEach.call(circleProgressBarPlaceholders, function(progressBar) {
 		var svgElement = document.createElementNS (xmlns, 'svg');
+        svgElement.style.height = 200;
+        svgElement.style.width = 200;
 		progressBar.appendChild(svgElement);
 		
 		var canvasSize = 200,
